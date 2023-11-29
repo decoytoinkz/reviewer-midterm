@@ -1,0 +1,22 @@
+header a{
+    color:#fff;
+    text-decoration: none;
+}
+
+#obj1{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    background-color:red;
+    transition:2s;
+    margin-left:900px;
+}
+
+#obj3{
+    transition:2s;
+}
+
+#additional-text{
+    /* display:block; to display  */
+    display:none; 
+}

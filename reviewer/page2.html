@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstra.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="bg-dark pt-2 pb-2">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="logo col-auto text-warning">Midterm Reviewer</div>
+                <nav class="col-auto">
+                    <a href="index.html">Page 1</a>
+                    <a href="page2.html" class="text-warning">Page 2</a>
+                    <a href="page3.html">Page 3</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+           <div class="row mt-5">
+                <div class="col-md-12">
+                    <h1>Instructions</h1>
+                    <hr>
+                    <p>Calculate the BMI of an individual based on the inputs (height and weight). Also create a script that will identify the BMI type of the calculate BMI value. Please refer to the formula and representation below. </p>
+                    <h3>BMI Categories:</h3>
+                    <hr>
+                    <p>Underweight = <18.5</p>
+                    <p>Normal weight = 18.5–24.9</p>
+                    <p>Overweight = 25–29.9</p>
+                    <p>Obesity = BMI of 30 or greater</p>
+                    
+                    <h3>Formula</h3>
+                    <hr>
+                    <p>BMI = weight(Kg) / height(m) * height(m)</p>
+                    <hr>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="border p-3 rounded bg-warning">
+                        <h2>BMI Calculator</h2>
+                        <hr>
+                        
+                        <div class="mt-2">
+                            <label for="weight">Weight</label>
+                            <input type="number" id="weight" class="form-control">
+                        </div>
+                        <div class="mt-2">
+                            <label for="height">Height</label>
+                            <input type="number" id="height" class="form-control">
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn btn-success">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                   <div class="border rounded p-3 bg-success text-white">
+                        
+
+                        <h3>Calculation</h3>
+                        <hr>
+                        <p class="text-warning">BMI = <span id="weight">0</span> Kg / <span id="height">0</span> m<sup>2</sup></p>
+
+                        <h4>BMI = <span id="bmi">0.0</span></h4>
+                        <h4>BMI Category = <span class="text-info" id="bmicategory">Unknown</span></h4>
+                   </div>
+                </div>
+           </div>
+        </div>
+    </main>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

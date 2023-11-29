@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstra.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="bg-dark pt-2 pb-2">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="logo col-auto text-warning">Midterm Reviewer</div>
+                <nav class="col-auto">
+                    <a href="index.html" class="text-warning">Page 1</a>
+                    <a href="page2.html">Page 2</a>
+                    <a href="page3.html">Page 3</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="pt-4 pb-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="border p-2 rounded">
+                            <h2>Task 1
+                                <button class="float-end btn btn-warning">Transform</button>
+                            </h2>
+                            <hr>
+                            <p>Transform the object from circle to square. Move the object to the left side while transforming.</p>
+
+                            <div id="obj1"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-5">
+                        <div class="border p-2 rounded">
+                            <h2>Task 2
+                                <button id="off" class="float-end btn btn-danger">OFF</button> 
+                                <button id="on" class="float-end btn btn-success">ON</button>
+                            </h2>
+                            <hr>
+                            <p>Change the source of the image to Off.png upon clicking the OFF Button and change the source of the image to On.png upon clicking the ON Button.</p>
+                            <img src="assets/images/Off.png" alt="Off" id="obj2">
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-5">
+                        <div class="border p-2 rounded">
+                            <h2>Task 3
+                                <button id="transform3" class="float-end btn btn-warning">Transform</button>
+                                <button id="reset" class="float-end btn btn-warning">Reset</button>
+                            </h2>
+                            <hr>
+                            <p>Transform the text of the element below from Hello to Hurray. While changing the text change the font size to 20pt and the color to green. Move the object to the right side while transforming. Add an additional button that will revert the object to its original style.</p>
+                            <p class="text-danger">Remove the additional button after clicking it.</p>
+                            <div id="obj3">Hello</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 mt-5">
+                        <div class="border p-2 rounded">
+                            <h2>Task 4</h2>
+                            <hr>
+                            <p>Show the full text after clicking the button Read More. </p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error consectetur illum, consequuntur voluptas veniam cumque harum in velit amet hic cum deleniti adipisci dolorem. <button class="btn p-0 btn-link">Read More</button> <span id="additional-text">Illum ipsam officia soluta sed blanditiis, voluptatibus incidunt impedit molestias quaerat, sapiente saepe vero fugit unde repellat laudantium dolorem at culpa libero obcaecati maxime autem? Sunt, maiores natus tempore alias aspernatur molestiae eum deleniti, impedit, fuga qui ut voluptatem illo! Architecto sint excepturi reiciendis dignissimos est commodi ab numquam, cupiditate officiis fuga, nesciunt quaerat illo laudantium consectetur odit vel quam natus labore ipsum neque sit. Possimus eius dolorum, accusantium animi aliquid cupiditate vero blanditiis suscipit tempora.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

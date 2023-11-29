@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstra.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="bg-dark pt-2 pb-2">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="logo col-auto text-warning">Midterm Reviewer</div>
+                <nav class="col-auto">
+                    <a href="index.html">Page 1</a>
+                    <a href="page2.html">Page 2</a>
+                    <a href="page3.html" class="text-warning">Page 3</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+           <div class="row mt-5">
+                <div class="col-md-12">
+                    <h1>Instructions</h1>
+                    <hr>
+                    <p>Create a script that will calculate the BMI and BMI Category of an Individual. Store the BMI, BMI Category, and some of the personal details of a person to a JavaScript array and display it on the table below. Please refer to the formula and representation on <a href="page2.html">Page 2</a>. </p>
+                   
+                </div>
+                <div class="col-md-6 ">
+                    <div class="border p-3 rounded bg-warning">
+                        <h2>BMI Calculator</h2>
+                        <hr>
+                        <div class="mt-2">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                        <div class="mt-2">
+                            <label for="age">Age</label>
+                            <input type="number" id="age" class="form-control">
+                        </div>
+                        <div class="mt-2">
+                            <label for="weight">Weight</label>
+                            <input type="number" id="weight" class="form-control">
+                        </div>
+                        <div class="mt-2">
+                            <label for="height">Height</label>
+                            <input type="number" id="height" class="form-control">
+                        </div>
+                        <div class="mt-2">
+                            <button class="btn btn-success">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                   <div class="border rounded p-3">
+                        <h3>Records</h3>
+                        <hr>
+                        <table class="table table-bordered table-stripe">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Age</th>
+                                    <th>Weight (Kg)</th>
+                                    <th>Height (m)</th>
+                                    <th>BMI</th>
+                                    <th>Category</th>
+                                </tr>
+                            </thead>
+                        </table>
+                   </div>
+                </div>
+           </div>
+        </div>
+    </main>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
